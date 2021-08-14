@@ -1,0 +1,734 @@
+2021-07-31 21:52:00,095 - Model - INFO - PARAMETER ...
+2021-07-31 21:52:00,096 - Model - INFO - Namespace(batch_size=4, decay_rate=0.0001, epoch=32, gpu='1', learning_rate=0.001, log_dir=None, lr_decay=0.7, model='pointnet2_sem_seg_msg', npoint=10096, optimizer='Adam', step_size=10)
+2021-07-31 21:52:01,746 - Model - INFO - The number of training data is: 590
+2021-07-31 21:52:01,746 - Model - INFO - The number of test data is: 78
+2021-07-31 21:52:01,792 - Model - INFO - No existing model, starting training from scratch...
+2021-07-31 21:52:01,797 - Model - INFO - **** Epoch 1 (1/32) ****
+2021-07-31 21:52:01,798 - Model - INFO - Learning rate:0.001000
+2021-07-31 21:54:57,558 - Model - INFO - Training mean loss: 0.561246
+2021-07-31 21:54:57,558 - Model - INFO - Training accuracy: 0.839648
+2021-07-31 21:54:57,558 - Model - INFO - Save model...
+2021-07-31 21:54:57,558 - Model - INFO - Saving at log\eye_seg\2021-07-31_21-52\checkpoints/model.pth
+2021-07-31 21:54:57,691 - Model - INFO - Saving model....
+2021-07-31 21:54:57,714 - Model - INFO - ---- EPOCH 001 EVALUATION ----
+2021-07-31 21:55:25,428 - Model - INFO - eval mean loss: 0.351777
+2021-07-31 21:55:25,428 - Model - INFO - eval 4 classes mean IoU: 0.420677
+2021-07-31 21:55:25,429 - Model - INFO - eval point avg class IoU: 0.516076
+2021-07-31 21:55:25,429 - Model - INFO - eval point accuracy: 0.865998
+2021-07-31 21:55:25,429 - Model - INFO - eval point avg class acc: 0.691477
+2021-07-31 21:55:25,430 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.778, IoU: 0.307 
+class Iris           weight: 0.007, IoU: 0.434 
+class Sclera         weight: 0.044, IoU: 0.278 
+class Eye-lashes     weight: 0.029, IoU: 0.664 
+class Background     weight: 0.141, IoU: 0.898 
+
+2021-07-31 21:55:25,431 - Model - INFO - Eval mean loss: 0.351777
+2021-07-31 21:55:25,432 - Model - INFO - Eval accuracy: 0.865998
+2021-07-31 21:55:25,432 - Model - INFO - Save model...
+2021-07-31 21:55:25,432 - Model - INFO - Saving at log\eye_seg\2021-07-31_21-52\checkpoints/best_model.pth
+2021-07-31 21:55:25,550 - Model - INFO - Saving model....
+2021-07-31 21:55:25,551 - Model - INFO - Best mIoU: 0.516076
+2021-07-31 21:55:25,551 - Model - INFO - Best mIoU for 4 classes: 0.420677
+2021-07-31 21:55:25,552 - Model - INFO - **** Epoch 2 (2/32) ****
+2021-07-31 21:55:25,552 - Model - INFO - Learning rate:0.001000
+2021-07-31 21:58:38,375 - Model - INFO - Training mean loss: 0.375519
+2021-07-31 21:58:38,376 - Model - INFO - Training accuracy: 0.891745
+2021-07-31 21:58:38,399 - Model - INFO - ---- EPOCH 002 EVALUATION ----
+2021-07-31 21:59:05,435 - Model - INFO - eval mean loss: 0.286288
+2021-07-31 21:59:05,435 - Model - INFO - eval 4 classes mean IoU: 0.491266
+2021-07-31 21:59:05,436 - Model - INFO - eval point avg class IoU: 0.577482
+2021-07-31 21:59:05,436 - Model - INFO - eval point accuracy: 0.889248
+2021-07-31 21:59:05,436 - Model - INFO - eval point avg class acc: 0.782170
+2021-07-31 21:59:05,436 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.779, IoU: 0.341 
+class Iris           weight: 0.008, IoU: 0.450 
+class Sclera         weight: 0.044, IoU: 0.426 
+class Eye-lashes     weight: 0.029, IoU: 0.749 
+class Background     weight: 0.140, IoU: 0.922 
+
+2021-07-31 21:59:05,437 - Model - INFO - Eval mean loss: 0.286288
+2021-07-31 21:59:05,437 - Model - INFO - Eval accuracy: 0.889248
+2021-07-31 21:59:05,437 - Model - INFO - Save model...
+2021-07-31 21:59:05,438 - Model - INFO - Saving at log\eye_seg\2021-07-31_21-52\checkpoints/best_model.pth
+2021-07-31 21:59:05,528 - Model - INFO - Saving model....
+2021-07-31 21:59:05,532 - Model - INFO - Best mIoU: 0.577482
+2021-07-31 21:59:05,533 - Model - INFO - Best mIoU for 4 classes: 0.491266
+2021-07-31 21:59:05,535 - Model - INFO - **** Epoch 3 (3/32) ****
+2021-07-31 21:59:05,536 - Model - INFO - Learning rate:0.001000
+2021-07-31 22:02:28,699 - Model - INFO - Training mean loss: 0.321173
+2021-07-31 22:02:28,699 - Model - INFO - Training accuracy: 0.904454
+2021-07-31 22:02:28,720 - Model - INFO - ---- EPOCH 003 EVALUATION ----
+2021-07-31 22:02:51,205 - Model - INFO - eval mean loss: 0.311228
+2021-07-31 22:02:51,205 - Model - INFO - eval 4 classes mean IoU: 0.443440
+2021-07-31 22:02:51,205 - Model - INFO - eval point avg class IoU: 0.541101
+2021-07-31 22:02:51,206 - Model - INFO - eval point accuracy: 0.894659
+2021-07-31 22:02:51,207 - Model - INFO - eval point avg class acc: 0.689206
+2021-07-31 22:02:51,207 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.779, IoU: 0.140 
+class Iris           weight: 0.008, IoU: 0.435 
+class Sclera         weight: 0.044, IoU: 0.425 
+class Eye-lashes     weight: 0.029, IoU: 0.774 
+class Background     weight: 0.141, IoU: 0.932 
+
+2021-07-31 22:02:51,208 - Model - INFO - Eval mean loss: 0.311228
+2021-07-31 22:02:51,208 - Model - INFO - Eval accuracy: 0.894659
+2021-07-31 22:02:51,208 - Model - INFO - Best mIoU: 0.577482
+2021-07-31 22:02:51,209 - Model - INFO - Best mIoU for 4 classes: 0.491266
+2021-07-31 22:02:51,209 - Model - INFO - **** Epoch 4 (4/32) ****
+2021-07-31 22:02:51,210 - Model - INFO - Learning rate:0.001000
+2021-07-31 22:05:45,681 - Model - INFO - Training mean loss: 0.282449
+2021-07-31 22:05:45,681 - Model - INFO - Training accuracy: 0.913954
+2021-07-31 22:05:45,695 - Model - INFO - ---- EPOCH 004 EVALUATION ----
+2021-07-31 22:06:08,360 - Model - INFO - eval mean loss: 0.284318
+2021-07-31 22:06:08,361 - Model - INFO - eval 4 classes mean IoU: 0.430783
+2021-07-31 22:06:08,361 - Model - INFO - eval point avg class IoU: 0.529265
+2021-07-31 22:06:08,361 - Model - INFO - eval point accuracy: 0.891597
+2021-07-31 22:06:08,362 - Model - INFO - eval point avg class acc: 0.675809
+2021-07-31 22:06:08,362 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.780, IoU: 0.000 
+class Iris           weight: 0.007, IoU: 0.494 
+class Sclera         weight: 0.044, IoU: 0.500 
+class Eye-lashes     weight: 0.029, IoU: 0.729 
+class Background     weight: 0.140, IoU: 0.923 
+
+2021-07-31 22:06:08,363 - Model - INFO - Eval mean loss: 0.284318
+2021-07-31 22:06:08,363 - Model - INFO - Eval accuracy: 0.891597
+2021-07-31 22:06:08,363 - Model - INFO - Best mIoU: 0.577482
+2021-07-31 22:06:08,363 - Model - INFO - Best mIoU for 4 classes: 0.491266
+2021-07-31 22:06:08,364 - Model - INFO - **** Epoch 5 (5/32) ****
+2021-07-31 22:06:08,364 - Model - INFO - Learning rate:0.001000
+2021-07-31 22:09:07,105 - Model - INFO - Training mean loss: 0.268112
+2021-07-31 22:09:07,105 - Model - INFO - Training accuracy: 0.918550
+2021-07-31 22:09:07,120 - Model - INFO - ---- EPOCH 005 EVALUATION ----
+2021-07-31 22:09:31,433 - Model - INFO - eval mean loss: 0.218809
+2021-07-31 22:09:31,433 - Model - INFO - eval 4 classes mean IoU: 0.542333
+2021-07-31 22:09:31,434 - Model - INFO - eval point avg class IoU: 0.622422
+2021-07-31 22:09:31,434 - Model - INFO - eval point accuracy: 0.908045
+2021-07-31 22:09:31,434 - Model - INFO - eval point avg class acc: 0.835812
+2021-07-31 22:09:31,435 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.779, IoU: 0.354 
+class Iris           weight: 0.008, IoU: 0.437 
+class Sclera         weight: 0.044, IoU: 0.579 
+class Eye-lashes     weight: 0.029, IoU: 0.799 
+class Background     weight: 0.141, IoU: 0.943 
+
+2021-07-31 22:09:31,436 - Model - INFO - Eval mean loss: 0.218809
+2021-07-31 22:09:31,436 - Model - INFO - Eval accuracy: 0.908045
+2021-07-31 22:09:31,437 - Model - INFO - Save model...
+2021-07-31 22:09:31,437 - Model - INFO - Saving at log\eye_seg\2021-07-31_21-52\checkpoints/best_model.pth
+2021-07-31 22:09:31,514 - Model - INFO - Saving model....
+2021-07-31 22:09:31,515 - Model - INFO - Best mIoU: 0.622422
+2021-07-31 22:09:31,515 - Model - INFO - Best mIoU for 4 classes: 0.542333
+2021-07-31 22:09:31,515 - Model - INFO - **** Epoch 6 (6/32) ****
+2021-07-31 22:09:31,515 - Model - INFO - Learning rate:0.001000
+2021-07-31 22:12:26,483 - Model - INFO - Training mean loss: 0.249769
+2021-07-31 22:12:26,484 - Model - INFO - Training accuracy: 0.922180
+2021-07-31 22:12:26,485 - Model - INFO - Save model...
+2021-07-31 22:12:26,485 - Model - INFO - Saving at log\eye_seg\2021-07-31_21-52\checkpoints/model.pth
+2021-07-31 22:12:26,551 - Model - INFO - Saving model....
+2021-07-31 22:12:26,566 - Model - INFO - ---- EPOCH 006 EVALUATION ----
+2021-07-31 22:12:50,441 - Model - INFO - eval mean loss: 0.201905
+2021-07-31 22:12:50,442 - Model - INFO - eval 4 classes mean IoU: 0.572506
+2021-07-31 22:12:50,444 - Model - INFO - eval point avg class IoU: 0.646499
+2021-07-31 22:12:50,445 - Model - INFO - eval point accuracy: 0.911314
+2021-07-31 22:12:50,445 - Model - INFO - eval point avg class acc: 0.837173
+2021-07-31 22:12:50,445 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.779, IoU: 0.396 
+class Iris           weight: 0.008, IoU: 0.511 
+class Sclera         weight: 0.044, IoU: 0.573 
+class Eye-lashes     weight: 0.029, IoU: 0.810 
+class Background     weight: 0.141, IoU: 0.942 
+
+2021-07-31 22:12:50,446 - Model - INFO - Eval mean loss: 0.201905
+2021-07-31 22:12:50,446 - Model - INFO - Eval accuracy: 0.911314
+2021-07-31 22:12:50,446 - Model - INFO - Save model...
+2021-07-31 22:12:50,446 - Model - INFO - Saving at log\eye_seg\2021-07-31_21-52\checkpoints/best_model.pth
+2021-07-31 22:12:50,505 - Model - INFO - Saving model....
+2021-07-31 22:12:50,505 - Model - INFO - Best mIoU: 0.646499
+2021-07-31 22:12:50,505 - Model - INFO - Best mIoU for 4 classes: 0.572506
+2021-07-31 22:12:50,506 - Model - INFO - **** Epoch 7 (7/32) ****
+2021-07-31 22:12:50,506 - Model - INFO - Learning rate:0.001000
+2021-07-31 22:15:49,542 - Model - INFO - Training mean loss: 0.237571
+2021-07-31 22:15:49,542 - Model - INFO - Training accuracy: 0.925218
+2021-07-31 22:15:49,555 - Model - INFO - ---- EPOCH 007 EVALUATION ----
+2021-07-31 22:16:14,869 - Model - INFO - eval mean loss: 0.193265
+2021-07-31 22:16:14,869 - Model - INFO - eval 4 classes mean IoU: 0.610496
+2021-07-31 22:16:14,870 - Model - INFO - eval point avg class IoU: 0.675470
+2021-07-31 22:16:14,870 - Model - INFO - eval point accuracy: 0.911120
+2021-07-31 22:16:14,870 - Model - INFO - eval point avg class acc: 0.838178
+2021-07-31 22:16:14,871 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.779, IoU: 0.442 
+class Iris           weight: 0.008, IoU: 0.599 
+class Sclera         weight: 0.044, IoU: 0.606 
+class Eye-lashes     weight: 0.029, IoU: 0.795 
+class Background     weight: 0.140, IoU: 0.935 
+
+2021-07-31 22:16:14,871 - Model - INFO - Eval mean loss: 0.193265
+2021-07-31 22:16:14,872 - Model - INFO - Eval accuracy: 0.911120
+2021-07-31 22:16:14,872 - Model - INFO - Save model...
+2021-07-31 22:16:14,872 - Model - INFO - Saving at log\eye_seg\2021-07-31_21-52\checkpoints/best_model.pth
+2021-07-31 22:16:14,943 - Model - INFO - Saving model....
+2021-07-31 22:16:14,943 - Model - INFO - Best mIoU: 0.675470
+2021-07-31 22:16:14,943 - Model - INFO - Best mIoU for 4 classes: 0.610496
+2021-07-31 22:16:14,944 - Model - INFO - **** Epoch 8 (8/32) ****
+2021-07-31 22:16:14,944 - Model - INFO - Learning rate:0.001000
+2021-07-31 22:19:27,236 - Model - INFO - Training mean loss: 0.224146
+2021-07-31 22:19:27,237 - Model - INFO - Training accuracy: 0.930230
+2021-07-31 22:19:27,294 - Model - INFO - ---- EPOCH 008 EVALUATION ----
+2021-07-31 22:19:54,144 - Model - INFO - eval mean loss: 0.188564
+2021-07-31 22:19:54,144 - Model - INFO - eval 4 classes mean IoU: 0.582715
+2021-07-31 22:19:54,145 - Model - INFO - eval point avg class IoU: 0.653972
+2021-07-31 22:19:54,145 - Model - INFO - eval point accuracy: 0.910645
+2021-07-31 22:19:54,145 - Model - INFO - eval point avg class acc: 0.850625
+2021-07-31 22:19:54,146 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.779, IoU: 0.416 
+class Iris           weight: 0.008, IoU: 0.562 
+class Sclera         weight: 0.044, IoU: 0.539 
+class Eye-lashes     weight: 0.029, IoU: 0.815 
+class Background     weight: 0.140, IoU: 0.939 
+
+2021-07-31 22:19:54,146 - Model - INFO - Eval mean loss: 0.188564
+2021-07-31 22:19:54,146 - Model - INFO - Eval accuracy: 0.910645
+2021-07-31 22:19:54,146 - Model - INFO - Best mIoU: 0.675470
+2021-07-31 22:19:54,147 - Model - INFO - Best mIoU for 4 classes: 0.610496
+2021-07-31 22:19:54,147 - Model - INFO - **** Epoch 9 (9/32) ****
+2021-07-31 22:19:54,147 - Model - INFO - Learning rate:0.001000
+2021-07-31 22:23:13,608 - Model - INFO - Training mean loss: 0.224635
+2021-07-31 22:23:13,609 - Model - INFO - Training accuracy: 0.930350
+2021-07-31 22:23:13,642 - Model - INFO - ---- EPOCH 009 EVALUATION ----
+2021-07-31 22:23:47,738 - Model - INFO - eval mean loss: 0.200953
+2021-07-31 22:23:47,739 - Model - INFO - eval 4 classes mean IoU: 0.526149
+2021-07-31 22:23:47,739 - Model - INFO - eval point avg class IoU: 0.610335
+2021-07-31 22:23:47,739 - Model - INFO - eval point accuracy: 0.918250
+2021-07-31 22:23:47,740 - Model - INFO - eval point avg class acc: 0.732417
+2021-07-31 22:23:47,740 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.779, IoU: 0.068 
+class Iris           weight: 0.007, IoU: 0.625 
+class Sclera         weight: 0.044, IoU: 0.590 
+class Eye-lashes     weight: 0.029, IoU: 0.822 
+class Background     weight: 0.140, IoU: 0.947 
+
+2021-07-31 22:23:47,742 - Model - INFO - Eval mean loss: 0.200953
+2021-07-31 22:23:47,742 - Model - INFO - Eval accuracy: 0.918250
+2021-07-31 22:23:47,743 - Model - INFO - Best mIoU: 0.675470
+2021-07-31 22:23:47,743 - Model - INFO - Best mIoU for 4 classes: 0.610496
+2021-07-31 22:23:47,743 - Model - INFO - **** Epoch 10 (10/32) ****
+2021-07-31 22:23:47,744 - Model - INFO - Learning rate:0.001000
+2021-07-31 22:27:02,258 - Model - INFO - Training mean loss: 0.207440
+2021-07-31 22:27:02,259 - Model - INFO - Training accuracy: 0.935014
+2021-07-31 22:27:02,276 - Model - INFO - ---- EPOCH 010 EVALUATION ----
+2021-07-31 22:27:25,726 - Model - INFO - eval mean loss: 0.167490
+2021-07-31 22:27:25,726 - Model - INFO - eval 4 classes mean IoU: 0.628534
+2021-07-31 22:27:25,726 - Model - INFO - eval point avg class IoU: 0.692942
+2021-07-31 22:27:25,727 - Model - INFO - eval point accuracy: 0.922494
+2021-07-31 22:27:25,728 - Model - INFO - eval point avg class acc: 0.842397
+2021-07-31 22:27:25,728 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.779, IoU: 0.457 
+class Iris           weight: 0.007, IoU: 0.626 
+class Sclera         weight: 0.044, IoU: 0.593 
+class Eye-lashes     weight: 0.029, IoU: 0.837 
+class Background     weight: 0.140, IoU: 0.951 
+
+2021-07-31 22:27:25,729 - Model - INFO - Eval mean loss: 0.167490
+2021-07-31 22:27:25,729 - Model - INFO - Eval accuracy: 0.922494
+2021-07-31 22:27:25,730 - Model - INFO - Save model...
+2021-07-31 22:27:25,730 - Model - INFO - Saving at log\eye_seg\2021-07-31_21-52\checkpoints/best_model.pth
+2021-07-31 22:27:25,830 - Model - INFO - Saving model....
+2021-07-31 22:27:25,831 - Model - INFO - Best mIoU: 0.692942
+2021-07-31 22:27:25,833 - Model - INFO - Best mIoU for 4 classes: 0.628534
+2021-07-31 22:27:25,834 - Model - INFO - **** Epoch 11 (11/32) ****
+2021-07-31 22:27:25,834 - Model - INFO - Learning rate:0.000700
+2021-07-31 22:30:28,978 - Model - INFO - Training mean loss: 0.189157
+2021-07-31 22:30:28,979 - Model - INFO - Training accuracy: 0.939633
+2021-07-31 22:30:28,979 - Model - INFO - Save model...
+2021-07-31 22:30:28,980 - Model - INFO - Saving at log\eye_seg\2021-07-31_21-52\checkpoints/model.pth
+2021-07-31 22:30:29,067 - Model - INFO - Saving model....
+2021-07-31 22:30:29,085 - Model - INFO - ---- EPOCH 011 EVALUATION ----
+2021-07-31 22:30:54,607 - Model - INFO - eval mean loss: 0.174662
+2021-07-31 22:30:54,608 - Model - INFO - eval 4 classes mean IoU: 0.565409
+2021-07-31 22:30:54,609 - Model - INFO - eval point avg class IoU: 0.642814
+2021-07-31 22:30:54,609 - Model - INFO - eval point accuracy: 0.924427
+2021-07-31 22:30:54,609 - Model - INFO - eval point avg class acc: 0.752503
+2021-07-31 22:30:54,610 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.779, IoU: 0.150 
+class Iris           weight: 0.008, IoU: 0.653 
+class Sclera         weight: 0.044, IoU: 0.612 
+class Eye-lashes     weight: 0.029, IoU: 0.846 
+class Background     weight: 0.141, IoU: 0.952 
+
+2021-07-31 22:30:54,611 - Model - INFO - Eval mean loss: 0.174662
+2021-07-31 22:30:54,611 - Model - INFO - Eval accuracy: 0.924427
+2021-07-31 22:30:54,612 - Model - INFO - Best mIoU: 0.692942
+2021-07-31 22:30:54,612 - Model - INFO - Best mIoU for 4 classes: 0.628534
+2021-07-31 22:30:54,612 - Model - INFO - **** Epoch 12 (12/32) ****
+2021-07-31 22:30:54,612 - Model - INFO - Learning rate:0.000700
+2021-07-31 22:33:50,500 - Model - INFO - Training mean loss: 0.183595
+2021-07-31 22:33:50,501 - Model - INFO - Training accuracy: 0.941345
+2021-07-31 22:33:50,515 - Model - INFO - ---- EPOCH 012 EVALUATION ----
+2021-07-31 22:34:13,468 - Model - INFO - eval mean loss: 0.180927
+2021-07-31 22:34:13,469 - Model - INFO - eval 4 classes mean IoU: 0.557511
+2021-07-31 22:34:13,469 - Model - INFO - eval point avg class IoU: 0.634798
+2021-07-31 22:34:13,469 - Model - INFO - eval point accuracy: 0.918164
+2021-07-31 22:34:13,470 - Model - INFO - eval point avg class acc: 0.742051
+2021-07-31 22:34:13,470 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.779, IoU: 0.102 
+class Iris           weight: 0.008, IoU: 0.664 
+class Sclera         weight: 0.044, IoU: 0.666 
+class Eye-lashes     weight: 0.029, IoU: 0.799 
+class Background     weight: 0.141, IoU: 0.944 
+
+2021-07-31 22:34:13,470 - Model - INFO - Eval mean loss: 0.180927
+2021-07-31 22:34:13,471 - Model - INFO - Eval accuracy: 0.918164
+2021-07-31 22:34:13,471 - Model - INFO - Best mIoU: 0.692942
+2021-07-31 22:34:13,471 - Model - INFO - Best mIoU for 4 classes: 0.628534
+2021-07-31 22:34:13,471 - Model - INFO - **** Epoch 13 (13/32) ****
+2021-07-31 22:34:13,472 - Model - INFO - Learning rate:0.000700
+2021-07-31 22:37:04,167 - Model - INFO - Training mean loss: 0.188091
+2021-07-31 22:37:04,167 - Model - INFO - Training accuracy: 0.940311
+2021-07-31 22:37:04,183 - Model - INFO - ---- EPOCH 013 EVALUATION ----
+2021-07-31 22:37:27,484 - Model - INFO - eval mean loss: 0.153458
+2021-07-31 22:37:27,484 - Model - INFO - eval 4 classes mean IoU: 0.627166
+2021-07-31 22:37:27,484 - Model - INFO - eval point avg class IoU: 0.691918
+2021-07-31 22:37:27,484 - Model - INFO - eval point accuracy: 0.922052
+2021-07-31 22:37:27,485 - Model - INFO - eval point avg class acc: 0.881944
+2021-07-31 22:37:27,485 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.779, IoU: 0.427 
+class Iris           weight: 0.008, IoU: 0.596 
+class Sclera         weight: 0.044, IoU: 0.645 
+class Eye-lashes     weight: 0.029, IoU: 0.842 
+class Background     weight: 0.140, IoU: 0.951 
+
+2021-07-31 22:37:27,485 - Model - INFO - Eval mean loss: 0.153458
+2021-07-31 22:37:27,486 - Model - INFO - Eval accuracy: 0.922052
+2021-07-31 22:37:27,486 - Model - INFO - Best mIoU: 0.692942
+2021-07-31 22:37:27,486 - Model - INFO - Best mIoU for 4 classes: 0.628534
+2021-07-31 22:37:27,486 - Model - INFO - **** Epoch 14 (14/32) ****
+2021-07-31 22:37:27,486 - Model - INFO - Learning rate:0.000700
+2021-07-31 22:40:32,500 - Model - INFO - Training mean loss: 0.177067
+2021-07-31 22:40:32,500 - Model - INFO - Training accuracy: 0.943094
+2021-07-31 22:40:32,537 - Model - INFO - ---- EPOCH 014 EVALUATION ----
+2021-07-31 22:40:57,596 - Model - INFO - eval mean loss: 0.156389
+2021-07-31 22:40:57,596 - Model - INFO - eval 4 classes mean IoU: 0.639691
+2021-07-31 22:40:57,597 - Model - INFO - eval point avg class IoU: 0.702030
+2021-07-31 22:40:57,597 - Model - INFO - eval point accuracy: 0.923693
+2021-07-31 22:40:57,598 - Model - INFO - eval point avg class acc: 0.866874
+2021-07-31 22:40:57,598 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.779, IoU: 0.464 
+class Iris           weight: 0.007, IoU: 0.619 
+class Sclera         weight: 0.044, IoU: 0.637 
+class Eye-lashes     weight: 0.029, IoU: 0.839 
+class Background     weight: 0.140, IoU: 0.951 
+
+2021-07-31 22:40:57,599 - Model - INFO - Eval mean loss: 0.156389
+2021-07-31 22:40:57,600 - Model - INFO - Eval accuracy: 0.923693
+2021-07-31 22:40:57,600 - Model - INFO - Save model...
+2021-07-31 22:40:57,600 - Model - INFO - Saving at log\eye_seg\2021-07-31_21-52\checkpoints/best_model.pth
+2021-07-31 22:40:57,670 - Model - INFO - Saving model....
+2021-07-31 22:40:57,670 - Model - INFO - Best mIoU: 0.702030
+2021-07-31 22:40:57,671 - Model - INFO - Best mIoU for 4 classes: 0.639691
+2021-07-31 22:40:57,672 - Model - INFO - **** Epoch 15 (15/32) ****
+2021-07-31 22:40:57,672 - Model - INFO - Learning rate:0.000700
+2021-07-31 22:43:58,617 - Model - INFO - Training mean loss: 0.177158
+2021-07-31 22:43:58,618 - Model - INFO - Training accuracy: 0.943255
+2021-07-31 22:43:58,631 - Model - INFO - ---- EPOCH 015 EVALUATION ----
+2021-07-31 22:44:21,155 - Model - INFO - eval mean loss: 0.160352
+2021-07-31 22:44:21,155 - Model - INFO - eval 4 classes mean IoU: 0.651614
+2021-07-31 22:44:21,156 - Model - INFO - eval point avg class IoU: 0.711239
+2021-07-31 22:44:21,156 - Model - INFO - eval point accuracy: 0.923802
+2021-07-31 22:44:21,156 - Model - INFO - eval point avg class acc: 0.868908
+2021-07-31 22:44:21,157 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.779, IoU: 0.510 
+class Iris           weight: 0.007, IoU: 0.661 
+class Sclera         weight: 0.044, IoU: 0.590 
+class Eye-lashes     weight: 0.029, IoU: 0.845 
+class Background     weight: 0.140, IoU: 0.950 
+
+2021-07-31 22:44:21,158 - Model - INFO - Eval mean loss: 0.160352
+2021-07-31 22:44:21,158 - Model - INFO - Eval accuracy: 0.923802
+2021-07-31 22:44:21,158 - Model - INFO - Save model...
+2021-07-31 22:44:21,158 - Model - INFO - Saving at log\eye_seg\2021-07-31_21-52\checkpoints/best_model.pth
+2021-07-31 22:44:21,217 - Model - INFO - Saving model....
+2021-07-31 22:44:21,217 - Model - INFO - Best mIoU: 0.711239
+2021-07-31 22:44:21,217 - Model - INFO - Best mIoU for 4 classes: 0.651614
+2021-07-31 22:44:21,217 - Model - INFO - **** Epoch 16 (16/32) ****
+2021-07-31 22:44:21,218 - Model - INFO - Learning rate:0.000700
+2021-07-31 22:47:23,860 - Model - INFO - Training mean loss: 0.174794
+2021-07-31 22:47:23,860 - Model - INFO - Training accuracy: 0.944356
+2021-07-31 22:47:23,860 - Model - INFO - Save model...
+2021-07-31 22:47:23,860 - Model - INFO - Saving at log\eye_seg\2021-07-31_21-52\checkpoints/model.pth
+2021-07-31 22:47:23,919 - Model - INFO - Saving model....
+2021-07-31 22:47:23,934 - Model - INFO - ---- EPOCH 016 EVALUATION ----
+2021-07-31 22:47:47,822 - Model - INFO - eval mean loss: 0.184351
+2021-07-31 22:47:47,822 - Model - INFO - eval 4 classes mean IoU: 0.590989
+2021-07-31 22:47:47,823 - Model - INFO - eval point avg class IoU: 0.661444
+2021-07-31 22:47:47,823 - Model - INFO - eval point accuracy: 0.913234
+2021-07-31 22:47:47,823 - Model - INFO - eval point avg class acc: 0.860020
+2021-07-31 22:47:47,823 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.779, IoU: 0.443 
+class Iris           weight: 0.008, IoU: 0.528 
+class Sclera         weight: 0.044, IoU: 0.558 
+class Eye-lashes     weight: 0.029, IoU: 0.835 
+class Background     weight: 0.141, IoU: 0.943 
+
+2021-07-31 22:47:47,824 - Model - INFO - Eval mean loss: 0.184351
+2021-07-31 22:47:47,824 - Model - INFO - Eval accuracy: 0.913234
+2021-07-31 22:47:47,824 - Model - INFO - Best mIoU: 0.711239
+2021-07-31 22:47:47,825 - Model - INFO - Best mIoU for 4 classes: 0.651614
+2021-07-31 22:47:47,825 - Model - INFO - **** Epoch 17 (17/32) ****
+2021-07-31 22:47:47,825 - Model - INFO - Learning rate:0.000700
+2021-07-31 22:50:45,699 - Model - INFO - Training mean loss: 0.180667
+2021-07-31 22:50:45,699 - Model - INFO - Training accuracy: 0.943296
+2021-07-31 22:50:45,713 - Model - INFO - ---- EPOCH 017 EVALUATION ----
+2021-07-31 22:51:10,835 - Model - INFO - eval mean loss: 0.153609
+2021-07-31 22:51:10,835 - Model - INFO - eval 4 classes mean IoU: 0.653061
+2021-07-31 22:51:10,838 - Model - INFO - eval point avg class IoU: 0.712337
+2021-07-31 22:51:10,839 - Model - INFO - eval point accuracy: 0.923984
+2021-07-31 22:51:10,839 - Model - INFO - eval point avg class acc: 0.863986
+2021-07-31 22:51:10,840 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.779, IoU: 0.495 
+class Iris           weight: 0.008, IoU: 0.647 
+class Sclera         weight: 0.044, IoU: 0.624 
+class Eye-lashes     weight: 0.029, IoU: 0.846 
+class Background     weight: 0.141, IoU: 0.949 
+
+2021-07-31 22:51:10,841 - Model - INFO - Eval mean loss: 0.153609
+2021-07-31 22:51:10,841 - Model - INFO - Eval accuracy: 0.923984
+2021-07-31 22:51:10,842 - Model - INFO - Save model...
+2021-07-31 22:51:10,842 - Model - INFO - Saving at log\eye_seg\2021-07-31_21-52\checkpoints/best_model.pth
+2021-07-31 22:51:10,985 - Model - INFO - Saving model....
+2021-07-31 22:51:10,986 - Model - INFO - Best mIoU: 0.712337
+2021-07-31 22:51:10,988 - Model - INFO - Best mIoU for 4 classes: 0.653061
+2021-07-31 22:51:10,991 - Model - INFO - **** Epoch 18 (18/32) ****
+2021-07-31 22:51:10,992 - Model - INFO - Learning rate:0.000700
+2021-07-31 22:54:04,376 - Model - INFO - Training mean loss: 0.171911
+2021-07-31 22:54:04,376 - Model - INFO - Training accuracy: 0.945420
+2021-07-31 22:54:04,391 - Model - INFO - ---- EPOCH 018 EVALUATION ----
+2021-07-31 22:54:27,919 - Model - INFO - eval mean loss: 0.159233
+2021-07-31 22:54:27,919 - Model - INFO - eval 4 classes mean IoU: 0.646754
+2021-07-31 22:54:27,920 - Model - INFO - eval point avg class IoU: 0.706572
+2021-07-31 22:54:27,920 - Model - INFO - eval point accuracy: 0.920840
+2021-07-31 22:54:27,921 - Model - INFO - eval point avg class acc: 0.845678
+2021-07-31 22:54:27,921 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.779, IoU: 0.480 
+class Iris           weight: 0.007, IoU: 0.661 
+class Sclera         weight: 0.044, IoU: 0.630 
+class Eye-lashes     weight: 0.029, IoU: 0.816 
+class Background     weight: 0.141, IoU: 0.946 
+
+2021-07-31 22:54:27,923 - Model - INFO - Eval mean loss: 0.159233
+2021-07-31 22:54:27,923 - Model - INFO - Eval accuracy: 0.920840
+2021-07-31 22:54:27,923 - Model - INFO - Best mIoU: 0.712337
+2021-07-31 22:54:27,924 - Model - INFO - Best mIoU for 4 classes: 0.653061
+2021-07-31 22:54:27,925 - Model - INFO - **** Epoch 19 (19/32) ****
+2021-07-31 22:54:27,925 - Model - INFO - Learning rate:0.000700
+2021-07-31 22:57:19,459 - Model - INFO - Training mean loss: 0.171438
+2021-07-31 22:57:19,459 - Model - INFO - Training accuracy: 0.945349
+2021-07-31 22:57:19,475 - Model - INFO - ---- EPOCH 019 EVALUATION ----
+2021-07-31 22:57:43,298 - Model - INFO - eval mean loss: 0.165985
+2021-07-31 22:57:43,298 - Model - INFO - eval 4 classes mean IoU: 0.652802
+2021-07-31 22:57:43,298 - Model - INFO - eval point avg class IoU: 0.713430
+2021-07-31 22:57:43,298 - Model - INFO - eval point accuracy: 0.927387
+2021-07-31 22:57:43,299 - Model - INFO - eval point avg class acc: 0.857048
+2021-07-31 22:57:43,299 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.779, IoU: 0.514 
+class Iris           weight: 0.008, IoU: 0.632 
+class Sclera         weight: 0.044, IoU: 0.606 
+class Eye-lashes     weight: 0.029, IoU: 0.859 
+class Background     weight: 0.141, IoU: 0.956 
+
+2021-07-31 22:57:43,300 - Model - INFO - Eval mean loss: 0.165985
+2021-07-31 22:57:43,300 - Model - INFO - Eval accuracy: 0.927387
+2021-07-31 22:57:43,300 - Model - INFO - Save model...
+2021-07-31 22:57:43,300 - Model - INFO - Saving at log\eye_seg\2021-07-31_21-52\checkpoints/best_model.pth
+2021-07-31 22:57:43,373 - Model - INFO - Saving model....
+2021-07-31 22:57:43,373 - Model - INFO - Best mIoU: 0.713430
+2021-07-31 22:57:43,373 - Model - INFO - Best mIoU for 4 classes: 0.653061
+2021-07-31 22:57:43,374 - Model - INFO - **** Epoch 20 (20/32) ****
+2021-07-31 22:57:43,374 - Model - INFO - Learning rate:0.000700
+2021-07-31 23:00:42,257 - Model - INFO - Training mean loss: 0.170013
+2021-07-31 23:00:42,257 - Model - INFO - Training accuracy: 0.946242
+2021-07-31 23:00:42,274 - Model - INFO - ---- EPOCH 020 EVALUATION ----
+2021-07-31 23:01:07,206 - Model - INFO - eval mean loss: 0.202287
+2021-07-31 23:01:07,207 - Model - INFO - eval 4 classes mean IoU: 0.486894
+2021-07-31 23:01:07,207 - Model - INFO - eval point avg class IoU: 0.579519
+2021-07-31 23:01:07,207 - Model - INFO - eval point accuracy: 0.916202
+2021-07-31 23:01:07,208 - Model - INFO - eval point avg class acc: 0.695347
+2021-07-31 23:01:07,208 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.779, IoU: 0.044 
+class Iris           weight: 0.007, IoU: 0.508 
+class Sclera         weight: 0.044, IoU: 0.568 
+class Eye-lashes     weight: 0.029, IoU: 0.828 
+class Background     weight: 0.140, IoU: 0.950 
+
+2021-07-31 23:01:07,209 - Model - INFO - Eval mean loss: 0.202287
+2021-07-31 23:01:07,209 - Model - INFO - Eval accuracy: 0.916202
+2021-07-31 23:01:07,209 - Model - INFO - Best mIoU: 0.713430
+2021-07-31 23:01:07,210 - Model - INFO - Best mIoU for 4 classes: 0.653061
+2021-07-31 23:01:07,210 - Model - INFO - **** Epoch 21 (21/32) ****
+2021-07-31 23:01:07,210 - Model - INFO - Learning rate:0.000490
+2021-07-31 23:04:07,562 - Model - INFO - Training mean loss: 0.155597
+2021-07-31 23:04:07,563 - Model - INFO - Training accuracy: 0.949982
+2021-07-31 23:04:07,563 - Model - INFO - Save model...
+2021-07-31 23:04:07,563 - Model - INFO - Saving at log\eye_seg\2021-07-31_21-52\checkpoints/model.pth
+2021-07-31 23:04:07,623 - Model - INFO - Saving model....
+2021-07-31 23:04:07,637 - Model - INFO - ---- EPOCH 021 EVALUATION ----
+2021-07-31 23:04:32,046 - Model - INFO - eval mean loss: 0.135128
+2021-07-31 23:04:32,046 - Model - INFO - eval 4 classes mean IoU: 0.648319
+2021-07-31 23:04:32,047 - Model - INFO - eval point avg class IoU: 0.710598
+2021-07-31 23:04:32,047 - Model - INFO - eval point accuracy: 0.932332
+2021-07-31 23:04:32,047 - Model - INFO - eval point avg class acc: 0.812966
+2021-07-31 23:04:32,048 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.780, IoU: 0.395 
+class Iris           weight: 0.007, IoU: 0.676 
+class Sclera         weight: 0.044, IoU: 0.646 
+class Eye-lashes     weight: 0.029, IoU: 0.876 
+class Background     weight: 0.140, IoU: 0.960 
+
+2021-07-31 23:04:32,048 - Model - INFO - Eval mean loss: 0.135128
+2021-07-31 23:04:32,049 - Model - INFO - Eval accuracy: 0.932332
+2021-07-31 23:04:32,049 - Model - INFO - Best mIoU: 0.713430
+2021-07-31 23:04:32,049 - Model - INFO - Best mIoU for 4 classes: 0.653061
+2021-07-31 23:04:32,049 - Model - INFO - **** Epoch 22 (22/32) ****
+2021-07-31 23:04:32,050 - Model - INFO - Learning rate:0.000490
+2021-07-31 23:07:30,653 - Model - INFO - Training mean loss: 0.147751
+2021-07-31 23:07:30,653 - Model - INFO - Training accuracy: 0.952320
+2021-07-31 23:07:30,666 - Model - INFO - ---- EPOCH 022 EVALUATION ----
+2021-07-31 23:07:54,912 - Model - INFO - eval mean loss: 0.144556
+2021-07-31 23:07:54,912 - Model - INFO - eval 4 classes mean IoU: 0.634884
+2021-07-31 23:07:54,913 - Model - INFO - eval point avg class IoU: 0.699954
+2021-07-31 23:07:54,913 - Model - INFO - eval point accuracy: 0.928911
+2021-07-31 23:07:54,913 - Model - INFO - eval point avg class acc: 0.890482
+2021-07-31 23:07:54,914 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.779, IoU: 0.422 
+class Iris           weight: 0.007, IoU: 0.594 
+class Sclera         weight: 0.044, IoU: 0.641 
+class Eye-lashes     weight: 0.029, IoU: 0.883 
+class Background     weight: 0.140, IoU: 0.960 
+
+2021-07-31 23:07:54,914 - Model - INFO - Eval mean loss: 0.144556
+2021-07-31 23:07:54,914 - Model - INFO - Eval accuracy: 0.928911
+2021-07-31 23:07:54,915 - Model - INFO - Best mIoU: 0.713430
+2021-07-31 23:07:54,915 - Model - INFO - Best mIoU for 4 classes: 0.653061
+2021-07-31 23:07:54,915 - Model - INFO - **** Epoch 23 (23/32) ****
+2021-07-31 23:07:54,915 - Model - INFO - Learning rate:0.000490
+2021-07-31 23:10:52,476 - Model - INFO - Training mean loss: 0.146401
+2021-07-31 23:10:52,476 - Model - INFO - Training accuracy: 0.952972
+2021-07-31 23:10:52,490 - Model - INFO - ---- EPOCH 023 EVALUATION ----
+2021-07-31 23:11:15,337 - Model - INFO - eval mean loss: 0.134292
+2021-07-31 23:11:15,337 - Model - INFO - eval 4 classes mean IoU: 0.674686
+2021-07-31 23:11:15,338 - Model - INFO - eval point avg class IoU: 0.731561
+2021-07-31 23:11:15,338 - Model - INFO - eval point accuracy: 0.933789
+2021-07-31 23:11:15,338 - Model - INFO - eval point avg class acc: 0.825094
+2021-07-31 23:11:15,339 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.779, IoU: 0.417 
+class Iris           weight: 0.007, IoU: 0.724 
+class Sclera         weight: 0.044, IoU: 0.697 
+class Eye-lashes     weight: 0.029, IoU: 0.860 
+class Background     weight: 0.140, IoU: 0.959 
+
+2021-07-31 23:11:15,339 - Model - INFO - Eval mean loss: 0.134292
+2021-07-31 23:11:15,340 - Model - INFO - Eval accuracy: 0.933789
+2021-07-31 23:11:15,340 - Model - INFO - Save model...
+2021-07-31 23:11:15,340 - Model - INFO - Saving at log\eye_seg\2021-07-31_21-52\checkpoints/best_model.pth
+2021-07-31 23:11:15,400 - Model - INFO - Saving model....
+2021-07-31 23:11:15,400 - Model - INFO - Best mIoU: 0.731561
+2021-07-31 23:11:15,401 - Model - INFO - Best mIoU for 4 classes: 0.674686
+2021-07-31 23:11:15,401 - Model - INFO - **** Epoch 24 (24/32) ****
+2021-07-31 23:11:15,401 - Model - INFO - Learning rate:0.000490
+2021-07-31 23:14:10,020 - Model - INFO - Training mean loss: 0.145685
+2021-07-31 23:14:10,020 - Model - INFO - Training accuracy: 0.953664
+2021-07-31 23:14:10,034 - Model - INFO - ---- EPOCH 024 EVALUATION ----
+2021-07-31 23:14:32,196 - Model - INFO - eval mean loss: 0.119483
+2021-07-31 23:14:32,196 - Model - INFO - eval 4 classes mean IoU: 0.709314
+2021-07-31 23:14:32,197 - Model - INFO - eval point avg class IoU: 0.759179
+2021-07-31 23:14:32,197 - Model - INFO - eval point accuracy: 0.934072
+2021-07-31 23:14:32,197 - Model - INFO - eval point avg class acc: 0.888180
+2021-07-31 23:14:32,198 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.779, IoU: 0.539 
+class Iris           weight: 0.008, IoU: 0.724 
+class Sclera         weight: 0.044, IoU: 0.712 
+class Eye-lashes     weight: 0.029, IoU: 0.862 
+class Background     weight: 0.141, IoU: 0.959 
+
+2021-07-31 23:14:32,198 - Model - INFO - Eval mean loss: 0.119483
+2021-07-31 23:14:32,198 - Model - INFO - Eval accuracy: 0.934072
+2021-07-31 23:14:32,199 - Model - INFO - Save model...
+2021-07-31 23:14:32,199 - Model - INFO - Saving at log\eye_seg\2021-07-31_21-52\checkpoints/best_model.pth
+2021-07-31 23:14:32,261 - Model - INFO - Saving model....
+2021-07-31 23:14:32,262 - Model - INFO - Best mIoU: 0.759179
+2021-07-31 23:14:32,262 - Model - INFO - Best mIoU for 4 classes: 0.709314
+2021-07-31 23:14:32,262 - Model - INFO - **** Epoch 25 (25/32) ****
+2021-07-31 23:14:32,262 - Model - INFO - Learning rate:0.000490
+2021-07-31 23:18:02,685 - Model - INFO - Training mean loss: 0.142823
+2021-07-31 23:18:02,685 - Model - INFO - Training accuracy: 0.954066
+2021-07-31 23:18:02,699 - Model - INFO - ---- EPOCH 025 EVALUATION ----
+2021-07-31 23:18:24,923 - Model - INFO - eval mean loss: 0.131876
+2021-07-31 23:18:24,923 - Model - INFO - eval 4 classes mean IoU: 0.678885
+2021-07-31 23:18:24,923 - Model - INFO - eval point avg class IoU: 0.735088
+2021-07-31 23:18:24,924 - Model - INFO - eval point accuracy: 0.932331
+2021-07-31 23:18:24,924 - Model - INFO - eval point avg class acc: 0.884144
+2021-07-31 23:18:24,924 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.779, IoU: 0.494 
+class Iris           weight: 0.008, IoU: 0.682 
+class Sclera         weight: 0.045, IoU: 0.674 
+class Eye-lashes     weight: 0.029, IoU: 0.866 
+class Background     weight: 0.141, IoU: 0.960 
+
+2021-07-31 23:18:24,925 - Model - INFO - Eval mean loss: 0.131876
+2021-07-31 23:18:24,926 - Model - INFO - Eval accuracy: 0.932331
+2021-07-31 23:18:24,926 - Model - INFO - Best mIoU: 0.759179
+2021-07-31 23:18:24,927 - Model - INFO - Best mIoU for 4 classes: 0.709314
+2021-07-31 23:18:24,927 - Model - INFO - **** Epoch 26 (26/32) ****
+2021-07-31 23:18:24,928 - Model - INFO - Learning rate:0.000490
+2021-07-31 23:22:00,085 - Model - INFO - Training mean loss: 0.145425
+2021-07-31 23:22:00,085 - Model - INFO - Training accuracy: 0.953356
+2021-07-31 23:22:00,086 - Model - INFO - Save model...
+2021-07-31 23:22:00,086 - Model - INFO - Saving at log\eye_seg\2021-07-31_21-52\checkpoints/model.pth
+2021-07-31 23:22:00,142 - Model - INFO - Saving model....
+2021-07-31 23:22:00,156 - Model - INFO - ---- EPOCH 026 EVALUATION ----
+2021-07-31 23:22:21,722 - Model - INFO - eval mean loss: 0.130510
+2021-07-31 23:22:21,722 - Model - INFO - eval 4 classes mean IoU: 0.681841
+2021-07-31 23:22:21,723 - Model - INFO - eval point avg class IoU: 0.738153
+2021-07-31 23:22:21,723 - Model - INFO - eval point accuracy: 0.936043
+2021-07-31 23:22:21,723 - Model - INFO - eval point avg class acc: 0.848105
+2021-07-31 23:22:21,723 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.779, IoU: 0.473 
+class Iris           weight: 0.007, IoU: 0.697 
+class Sclera         weight: 0.044, IoU: 0.675 
+class Eye-lashes     weight: 0.029, IoU: 0.883 
+class Background     weight: 0.140, IoU: 0.963 
+
+2021-07-31 23:22:21,724 - Model - INFO - Eval mean loss: 0.130510
+2021-07-31 23:22:21,724 - Model - INFO - Eval accuracy: 0.936043
+2021-07-31 23:22:21,724 - Model - INFO - Best mIoU: 0.759179
+2021-07-31 23:22:21,725 - Model - INFO - Best mIoU for 4 classes: 0.709314
+2021-07-31 23:22:21,725 - Model - INFO - **** Epoch 27 (27/32) ****
+2021-07-31 23:22:21,725 - Model - INFO - Learning rate:0.000490
+2021-07-31 23:25:09,788 - Model - INFO - Training mean loss: 0.145531
+2021-07-31 23:25:09,788 - Model - INFO - Training accuracy: 0.953551
+2021-07-31 23:25:09,801 - Model - INFO - ---- EPOCH 027 EVALUATION ----
+2021-07-31 23:25:32,404 - Model - INFO - eval mean loss: 0.127989
+2021-07-31 23:25:32,404 - Model - INFO - eval 4 classes mean IoU: 0.699969
+2021-07-31 23:25:32,404 - Model - INFO - eval point avg class IoU: 0.752594
+2021-07-31 23:25:32,405 - Model - INFO - eval point accuracy: 0.936434
+2021-07-31 23:25:32,405 - Model - INFO - eval point avg class acc: 0.862389
+2021-07-31 23:25:32,405 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.780, IoU: 0.526 
+class Iris           weight: 0.007, IoU: 0.708 
+class Sclera         weight: 0.044, IoU: 0.689 
+class Eye-lashes     weight: 0.029, IoU: 0.877 
+class Background     weight: 0.140, IoU: 0.963 
+
+2021-07-31 23:25:32,406 - Model - INFO - Eval mean loss: 0.127989
+2021-07-31 23:25:32,406 - Model - INFO - Eval accuracy: 0.936434
+2021-07-31 23:25:32,407 - Model - INFO - Best mIoU: 0.759179
+2021-07-31 23:25:32,407 - Model - INFO - Best mIoU for 4 classes: 0.709314
+2021-07-31 23:25:32,407 - Model - INFO - **** Epoch 28 (28/32) ****
+2021-07-31 23:25:32,407 - Model - INFO - Learning rate:0.000490
+2021-07-31 23:28:22,012 - Model - INFO - Training mean loss: 0.144768
+2021-07-31 23:28:22,012 - Model - INFO - Training accuracy: 0.953752
+2021-07-31 23:28:22,027 - Model - INFO - ---- EPOCH 028 EVALUATION ----
+2021-07-31 23:28:44,553 - Model - INFO - eval mean loss: 0.129827
+2021-07-31 23:28:44,553 - Model - INFO - eval 4 classes mean IoU: 0.704130
+2021-07-31 23:28:44,554 - Model - INFO - eval point avg class IoU: 0.754644
+2021-07-31 23:28:44,554 - Model - INFO - eval point accuracy: 0.932643
+2021-07-31 23:28:44,554 - Model - INFO - eval point avg class acc: 0.861580
+2021-07-31 23:28:44,555 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.779, IoU: 0.528 
+class Iris           weight: 0.008, IoU: 0.733 
+class Sclera         weight: 0.044, IoU: 0.708 
+class Eye-lashes     weight: 0.029, IoU: 0.849 
+class Background     weight: 0.140, IoU: 0.957 
+
+2021-07-31 23:28:44,555 - Model - INFO - Eval mean loss: 0.129827
+2021-07-31 23:28:44,555 - Model - INFO - Eval accuracy: 0.932643
+2021-07-31 23:28:44,556 - Model - INFO - Best mIoU: 0.759179
+2021-07-31 23:28:44,556 - Model - INFO - Best mIoU for 4 classes: 0.709314
+2021-07-31 23:28:44,556 - Model - INFO - **** Epoch 29 (29/32) ****
+2021-07-31 23:28:44,556 - Model - INFO - Learning rate:0.000490
+2021-07-31 23:31:34,089 - Model - INFO - Training mean loss: 0.150497
+2021-07-31 23:31:34,090 - Model - INFO - Training accuracy: 0.951629
+2021-07-31 23:31:34,104 - Model - INFO - ---- EPOCH 029 EVALUATION ----
+2021-07-31 23:31:56,593 - Model - INFO - eval mean loss: 0.135620
+2021-07-31 23:31:56,593 - Model - INFO - eval 4 classes mean IoU: 0.662876
+2021-07-31 23:31:56,594 - Model - INFO - eval point avg class IoU: 0.721326
+2021-07-31 23:31:56,594 - Model - INFO - eval point accuracy: 0.929340
+2021-07-31 23:31:56,594 - Model - INFO - eval point avg class acc: 0.838492
+2021-07-31 23:31:56,595 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.779, IoU: 0.444 
+class Iris           weight: 0.008, IoU: 0.703 
+class Sclera         weight: 0.044, IoU: 0.654 
+class Eye-lashes     weight: 0.029, IoU: 0.851 
+class Background     weight: 0.140, IoU: 0.955 
+
+2021-07-31 23:31:56,595 - Model - INFO - Eval mean loss: 0.135620
+2021-07-31 23:31:56,595 - Model - INFO - Eval accuracy: 0.929340
+2021-07-31 23:31:56,596 - Model - INFO - Best mIoU: 0.759179
+2021-07-31 23:31:56,596 - Model - INFO - Best mIoU for 4 classes: 0.709314
+2021-07-31 23:31:56,596 - Model - INFO - **** Epoch 30 (30/32) ****
+2021-07-31 23:31:56,596 - Model - INFO - Learning rate:0.000490
+2021-07-31 23:34:46,193 - Model - INFO - Training mean loss: 0.144466
+2021-07-31 23:34:46,194 - Model - INFO - Training accuracy: 0.953499
+2021-07-31 23:34:46,207 - Model - INFO - ---- EPOCH 030 EVALUATION ----
+2021-07-31 23:35:09,165 - Model - INFO - eval mean loss: 0.125533
+2021-07-31 23:35:09,166 - Model - INFO - eval 4 classes mean IoU: 0.700115
+2021-07-31 23:35:09,166 - Model - INFO - eval point avg class IoU: 0.752426
+2021-07-31 23:35:09,166 - Model - INFO - eval point accuracy: 0.935234
+2021-07-31 23:35:09,166 - Model - INFO - eval point avg class acc: 0.888467
+2021-07-31 23:35:09,167 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.779, IoU: 0.541 
+class Iris           weight: 0.008, IoU: 0.700 
+class Sclera         weight: 0.044, IoU: 0.681 
+class Eye-lashes     weight: 0.029, IoU: 0.878 
+class Background     weight: 0.140, IoU: 0.962 
+
+2021-07-31 23:35:09,167 - Model - INFO - Eval mean loss: 0.125533
+2021-07-31 23:35:09,167 - Model - INFO - Eval accuracy: 0.935234
+2021-07-31 23:35:09,168 - Model - INFO - Best mIoU: 0.759179
+2021-07-31 23:35:09,168 - Model - INFO - Best mIoU for 4 classes: 0.709314
+2021-07-31 23:35:09,168 - Model - INFO - **** Epoch 31 (31/32) ****
+2021-07-31 23:35:09,168 - Model - INFO - Learning rate:0.000343
+2021-07-31 23:37:58,608 - Model - INFO - Training mean loss: 0.133139
+2021-07-31 23:37:58,609 - Model - INFO - Training accuracy: 0.957001
+2021-07-31 23:37:58,610 - Model - INFO - Save model...
+2021-07-31 23:37:58,610 - Model - INFO - Saving at log\eye_seg\2021-07-31_21-52\checkpoints/model.pth
+2021-07-31 23:37:58,681 - Model - INFO - Saving model....
+2021-07-31 23:37:58,696 - Model - INFO - ---- EPOCH 031 EVALUATION ----
+2021-07-31 23:38:22,111 - Model - INFO - eval mean loss: 0.117517
+2021-07-31 23:38:22,111 - Model - INFO - eval 4 classes mean IoU: 0.695023
+2021-07-31 23:38:22,112 - Model - INFO - eval point avg class IoU: 0.748755
+2021-07-31 23:38:22,113 - Model - INFO - eval point accuracy: 0.936043
+2021-07-31 23:38:22,113 - Model - INFO - eval point avg class acc: 0.904594
+2021-07-31 23:38:22,114 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.779, IoU: 0.529 
+class Iris           weight: 0.008, IoU: 0.689 
+class Sclera         weight: 0.044, IoU: 0.673 
+class Eye-lashes     weight: 0.029, IoU: 0.889 
+class Background     weight: 0.140, IoU: 0.964 
+
+2021-07-31 23:38:22,115 - Model - INFO - Eval mean loss: 0.117517
+2021-07-31 23:38:22,115 - Model - INFO - Eval accuracy: 0.936043
+2021-07-31 23:38:22,116 - Model - INFO - Best mIoU: 0.759179
+2021-07-31 23:38:22,116 - Model - INFO - Best mIoU for 4 classes: 0.709314
+2021-07-31 23:38:22,116 - Model - INFO - **** Epoch 32 (32/32) ****
+2021-07-31 23:38:22,117 - Model - INFO - Learning rate:0.000343
+2021-07-31 23:41:13,079 - Model - INFO - Training mean loss: 0.130965
+2021-07-31 23:41:13,080 - Model - INFO - Training accuracy: 0.957677
+2021-07-31 23:41:13,094 - Model - INFO - ---- EPOCH 032 EVALUATION ----
+2021-07-31 23:41:35,887 - Model - INFO - eval mean loss: 0.123154
+2021-07-31 23:41:35,888 - Model - INFO - eval 4 classes mean IoU: 0.686588
+2021-07-31 23:41:35,888 - Model - INFO - eval point avg class IoU: 0.742055
+2021-07-31 23:41:35,889 - Model - INFO - eval point accuracy: 0.935520
+2021-07-31 23:41:35,889 - Model - INFO - eval point avg class acc: 0.895720
+2021-07-31 23:41:35,890 - Model - INFO - ------- IoU --------
+class Pupil          weight: 0.780, IoU: 0.502 
+class Iris           weight: 0.008, IoU: 0.674 
+class Sclera         weight: 0.044, IoU: 0.684 
+class Eye-lashes     weight: 0.029, IoU: 0.886 
+class Background     weight: 0.140, IoU: 0.964 
+
+2021-07-31 23:41:35,891 - Model - INFO - Eval mean loss: 0.123154
+2021-07-31 23:41:35,892 - Model - INFO - Eval accuracy: 0.935520
+2021-07-31 23:41:35,892 - Model - INFO - Best mIoU: 0.759179
+2021-07-31 23:41:35,892 - Model - INFO - Best mIoU for 4 classes: 0.709314

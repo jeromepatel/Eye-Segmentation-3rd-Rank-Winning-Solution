@@ -1,0 +1,63 @@
+2021-07-31 23:42:24,514 - Model - INFO - PARAMETER ...
+2021-07-31 23:42:24,514 - Model - INFO - Namespace(batch_size=1, gpu='1', k=5, log_dir='2021-07-31_21-52', num_point=10096, num_votes=3, save_labels=False, test_dir='val', valid=True)
+2021-07-31 23:45:28,596 - Model - INFO - eval 4 classes mean IoU: 0.693156
+2021-07-31 23:45:28,596 - Model - INFO - eval point avg class IoU: 0.745738
+2021-07-31 23:45:28,597 - Model - INFO - ------- IoU --------
+class Pupil         : 0.522 
+class Iris          : 0.719 
+class Sclera        : 0.685 
+class Eye-lashes    : 0.847 
+class Background    : 0.956 
+
+2021-07-31 23:46:09,454 - Model - INFO - PARAMETER ...
+2021-07-31 23:46:09,455 - Model - INFO - Namespace(batch_size=1, gpu='1', k=5, log_dir='2021-07-31_21-52', num_point=10096, num_votes=3, save_labels=False, test_dir='val', valid=True)
+2021-07-31 23:49:24,563 - Model - INFO - eval 4 classes mean IoU: 0.693156
+2021-07-31 23:49:24,563 - Model - INFO - eval point avg class IoU: 0.745738
+2021-07-31 23:49:24,564 - Model - INFO - ------- IoU --------
+class Pupil         : 0.522 
+class Iris          : 0.719 
+class Sclera        : 0.685 
+class Eye-lashes    : 0.847 
+class Background    : 0.956 
+
+2021-07-31 23:49:51,560 - Model - INFO - PARAMETER ...
+2021-07-31 23:49:51,561 - Model - INFO - Namespace(batch_size=1, gpu='1', k=7, log_dir='2021-07-31_21-52', num_point=10096, num_votes=3, save_labels=False, test_dir='val', valid=True)
+2021-07-31 23:53:00,021 - Model - INFO - eval 4 classes mean IoU: 0.693034
+2021-07-31 23:53:00,022 - Model - INFO - eval point avg class IoU: 0.745662
+2021-07-31 23:53:00,023 - Model - INFO - ------- IoU --------
+class Pupil         : 0.519 
+class Iris          : 0.717 
+class Sclera        : 0.687 
+class Eye-lashes    : 0.849 
+class Background    : 0.956 
+
+2021-07-31 23:56:08,972 - Model - INFO - PARAMETER ...
+2021-07-31 23:56:08,973 - Model - INFO - Namespace(batch_size=1, gpu='1', k=5, log_dir='2021-07-31_21-52', num_point=10096, num_votes=1, save_labels=False, test_dir='val', valid=True)
+2021-07-31 23:57:38,201 - Model - INFO - eval 4 classes mean IoU: 0.703820
+2021-07-31 23:57:38,202 - Model - INFO - eval point avg class IoU: 0.754520
+2021-07-31 23:57:38,202 - Model - INFO - ------- IoU --------
+class Pupil         : 0.519 
+class Iris          : 0.711 
+class Sclera        : 0.716 
+class Eye-lashes    : 0.870 
+class Background    : 0.957 
+
+2021-07-31 23:58:39,770 - Model - INFO - PARAMETER ...
+2021-07-31 23:58:39,770 - Model - INFO - Namespace(batch_size=1, gpu='1', k=5, log_dir='2021-07-31_21-52', num_point=10096, num_votes=5, save_labels=False, test_dir='val', valid=True)
+2021-08-01 00:03:38,114 - Model - INFO - eval 4 classes mean IoU: 0.691603
+2021-08-01 00:03:38,115 - Model - INFO - eval point avg class IoU: 0.744548
+2021-08-01 00:03:38,116 - Model - INFO - ------- IoU --------
+class Pupil         : 0.519 
+class Iris          : 0.720 
+class Sclera        : 0.675 
+class Eye-lashes    : 0.853 
+class Background    : 0.956 
+
+2021-08-01 00:05:07,392 - Model - INFO - PARAMETER ...
+2021-08-01 00:05:07,392 - Model - INFO - Namespace(batch_size=1, gpu='1', k=5, log_dir='2021-07-31_21-52', num_point=10096, num_votes=1, save_labels=True, test_dir='test', valid=True)
+2021-08-01 00:05:47,820 - Model - INFO - skipped an interpolation with 9367 points
+2021-08-01 00:05:58,456 - Model - INFO - skipped an interpolation with 8105 points
+2021-08-14 19:16:11,232 - Model - INFO - PARAMETER ...
+2021-08-14 19:16:11,242 - Model - INFO - Namespace(batch_size=1, gpu='1', k=5, log_dir='pre_trained_model', num_point=10096, num_votes=3, save_labels=True, test_dir='test', valid=False)
+2021-08-14 19:17:36,912 - Model - INFO - skipped an interpolation with 9367 points
+2021-08-14 19:18:00,797 - Model - INFO - skipped an interpolation with 8105 points
