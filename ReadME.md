@@ -15,3 +15,7 @@ The model will train for 32 epochs and will save the pretrained model inside `lo
 * Finally to run the inference from pre_trained_model (provided by us), run the command `python test_eyesemseg.py --log_dir pre_trained_model --test_dir test --save_labels True`.
 * The labels can be found as *.npy files inside output folder. 
 * To create json file from npy labels, use `create_json_ss.py` script by running the command `python create_json_ss.py --list-file submissionFiles.txt --submission-json pointnet2Submission.json`
+
+
+Credits:
+This repo contains modified version of Model and Training script from [this repo](https://github.com/yanx27/Pointnet_Pointnet2_pytorch)
